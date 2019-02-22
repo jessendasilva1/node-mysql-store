@@ -15,7 +15,12 @@ the stock of the store.
 1. Once the application is running from the previous steps, you will be asked to select one of 3 differnet options. Select the Customer View since the other two options currently arent available yet. 
 2. You will be asked to choose which product you would like to buy. (Enter the product ID as your choice)
 3. It will prompt you to enter a quantity of that product you want to purchase.
-4. If successfull, you will be shown the product you purchased and the price you paid. 
+4. If successfull, you will be shown the product you purchased and the price you paid.
 
+### Customer View
+  Coming Soon
+### Customer View
+  Coming Soon
+  
 ## Future Additions
 This is currently the basic iteration and in the future will include a Manager View and a Supervisor View. 
