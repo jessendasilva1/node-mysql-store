@@ -17,9 +17,10 @@ the stock of the store.
 3. It will prompt you to enter a quantity of that product you want to purchase.
 4. If successfull, you will be shown the product you purchased and the price you paid.
 
-### Customer View
+### Manager View
   Coming Soon
-### Customer View
+  
+### Supervisor View
   Coming Soon
   
 ## Future Additions
