@@ -4,3 +4,15 @@
 The node amazon store appilcation allows users to place orders on the different inventory items and updates
 the stock of the store. 
 
+## How to run the application
+1. Clone the repo to your local machine
+2. Navigate to the repo
+3. Run "npm install" without quotes to install all of the apps dependancies
+4. Type "node index.js" without quotes to run the application
+
+## How to use
+1. Once the application is running from the previous steps, you will be asked to select one of 3 differnet options. Select the Customer View since the other two options currently arent available yet. 
+2. You will be asked to 
+
+## Future Additions
+This is currently the basic iteration and in the future will include a Manager View and a Supervisor View. 
