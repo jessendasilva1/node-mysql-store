@@ -1,4 +1,4 @@
-console.log('sql config loaded');
+//console.log('sql config loaded');
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({

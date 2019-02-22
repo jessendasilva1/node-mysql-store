@@ -42,7 +42,9 @@ function customerView() {
 
 function buyProduct(itemID, userQuantity){
     connection.query("SELECT * from products WHERE item_id = ?", [itemID], function(err, res){
-        if(res.stock_quantity <= 0){
+        var check = parseInt(res[0].stock_quantity) - parseInt(userQuantity);
+        //console.log("check: "+ res[0].stock_quantity + ", " + userQuantity);
+        if(res[0].stock_quantity === 0 || check < 0){
             console.log("There is no more of that product left in stock");
             customerView();
         }else{
@@ -55,7 +57,7 @@ function buyProduct(itemID, userQuantity){
             console.log("Price: " + res[0].price);
             console.log("Stock Left: " + res[0].stock_quantity);
             console.log("-------------------------------------------------");
-            console.log("Total Cost is: " + parseInt(userQuantity * res[0].price));
+            console.log("Total Cost is: " + parseInt(userQuantity * res[0].price + "\n"));
             updateProduct(newStock, res[0]);
         }
     })
