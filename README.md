@@ -11,7 +11,7 @@ the stock of the store.
 4. Type "node index.js" without quotes to run the application
 
 ## How to use
-  #### Customer View
+  ### Customer View
 1. Once the application is running from the previous steps, you will be asked to select one of 3 differnet options. Select the Customer View since the other two options currently arent available yet. 
 2. You will be asked to choose which product you would like to buy. (Enter the product ID as your choice)
 3. It will prompt you to enter a quantity of that product you want to purchase.
